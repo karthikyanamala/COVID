@@ -1,6 +1,9 @@
-var Alfa_bits=["A","B","C","D","E","F","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
-
-
-var random_generator=Alfa_bits[Math.floor(Math.random()*Alfa_bits.length)];
-
-document.getElementById("alfabits").innerHTML=random_generator;
+var random_number=Math.floor((Math.random()*100)+1);
+document.getElementById("alfabits").innerHTML=random_number + "%";
+prompt("Enter Your Name");
+if(random_number>50){
+    document.getElementById("care").innerHTML="Take Care Be Safe"
+}
+else{
+    document.getElementById("care").innerHTML="Be safe"
+}

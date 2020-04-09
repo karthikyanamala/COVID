@@ -5,8 +5,21 @@ body{
 .alfa{
     font-size: xx-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: red;
+    color: blue;
 }
 .link{
     font-family: sans-serif;
+    color: deeppink;
+}
+.take{
+    color: rgb(0, 255, 128);
+}
+#alfabits{
+    color: gold;
+}
+#care{
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    ;
+    color: red;
 }
